@@ -11,7 +11,7 @@ const items = [
     title: "Slack Clone",
     desc: "Developed a full-stack Slack clone enabling real-time messaging across public channels and private conversations. Implemented a responsive UI with a custom component library, user authentication, and live online status indicators. The application facilitates seamless team coordination through instant, WebSocket-powered communication, showcasing advanced full-stack development capabilities.",
     img: "https://res.cloudinary.com/dzyj2w1s5/image/upload/v1762667854/slack-clone_lkof2y.png",
-    link: "https://yuheng.website",
+    link: "https://yuheng-slack.netlify.app/",
   },
   // {
   //   id: 2,
