@@ -114,7 +114,10 @@ export default function Navbar() {
 
       {/* Social Icons */}
       <div className="hidden md:flex gap-4 flex-1 justify-end">
-        <Link href="#" className="hover:opacity-80 transition-opacity">
+        <Link
+          href="https://github.com/Yuheng2003121"
+          className="hover:opacity-80 transition-opacity"
+        >
           <Image
             src="/github.png"
             alt="GitHub"
@@ -124,7 +127,7 @@ export default function Navbar() {
           />
         </Link>
 
-        <Link href="/" className="hover:opacity-80 transition-opacity">
+        {/* <Link href="/" className="hover:opacity-80 transition-opacity">
           <Image
             src="/dribbble.png"
             alt="Dribbble"
@@ -142,9 +145,9 @@ export default function Navbar() {
             height={24}
             className="object-contain"
           />
-        </Link>
+        </Link> */}
 
-        <Link href="/" className="hover:opacity-80 transition-opacity">
+        {/* <Link href="/" className="hover:opacity-80 transition-opacity">
           <Image
             src="/facebook.png"
             alt="Facebook"
@@ -152,9 +155,9 @@ export default function Navbar() {
             height={24}
             className="object-contain"
           />
-        </Link>
+        </Link> */}
 
-        <Link href="/" className="hover:opacity-80 transition-opacity">
+        {/* <Link href="/" className="hover:opacity-80 transition-opacity">
           <Image
             src="/pinterest.png"
             alt="Pinterest"
@@ -162,9 +165,12 @@ export default function Navbar() {
             height={24}
             className="object-contain"
           />
-        </Link>
+        </Link> */}
 
-        <Link href="/" className="hover:opacity-80 transition-opacity">
+        <Link
+          href="https://www.linkedin.com/in/li-yuheng-245659391"
+          className="hover:opacity-80 transition-opacity"
+        >
           <Image
             src="/linkedin.png"
             alt="LinkedIn"
@@ -203,16 +209,15 @@ export default function Navbar() {
 
         {/* Menu list */}
         {open && (
-          <motion.div 
+          <motion.div
             variants={listVariants}
             initial="closed"
             animate="open"
-            className="absolute z-10 top-0 left-0 bottom-0 right-0 bg-black text-white flex flex-col gap-8 justify-center items-center">
+            className="absolute z-10 top-0 left-0 bottom-0 right-0 bg-black text-white flex flex-col gap-8 justify-center items-center"
+          >
             {links.map((link) => (
-              <motion.div 
-                variants={listItemVariants}
-                key={link.title}>
-                <Link href={link.url}  className="text-4xl">
+              <motion.div variants={listItemVariants} key={link.title}>
+                <Link href={link.url} className="text-4xl">
                   {link.title}
                 </Link>
               </motion.div>

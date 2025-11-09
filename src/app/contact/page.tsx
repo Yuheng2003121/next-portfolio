@@ -9,7 +9,7 @@ const text = "Say Hello";
 
 export default function Page() {
   const [sucess, setSucess] = useState(false);
-  // const myEmail = "2513807550@qq.com";
+  const myEmail = "lyuheng023@gmail.com";
   const [error, setError] =  useState(false);
   const [email, setEmail] = useState("");
 
@@ -94,7 +94,7 @@ export default function Page() {
               name="user_email"
               type="text"
               className="bg-transparent border-b-2 border-black outline-none"
-              value={email}
+              value={myEmail}
               onChange={(e: ChangeEvent<HTMLInputElement>) => {
                 setEmail(e.target.value);
               }}

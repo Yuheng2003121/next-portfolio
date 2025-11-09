@@ -10,19 +10,18 @@ const keywords = [
   "TypeScript",
   "React.js",
   "Next.js",
-  "SCSS",
-  "Tailwind CSS",
-  "MongoDB",
-  "PostgreSQL",
   "Node.js",
   "Express.js",
-  "GraphQL",
-  "Apollo",
-  "Redux",
-  "Framer Motion",
+  "SCSS",
   "Three.js",
-  "WebGL",
+  "Tailwind CSS",
   "Webpack",
+  "MongoDB",
+  "MySQL",
+  "Figma",
+  "Java",
+  "Spring boot",
+  "Linux"
 ];
 export default function Page() {
   const {scrollYProgress} = useScroll();
@@ -45,14 +44,16 @@ export default function Page() {
           {/* biography container */}
           <div className="flex flex-col gap-12 ">
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
-            <p className="text-lg">
-              pleasant mouth mile giant younger aware model thee produce offer
-              dress without plain high cost pond rice harbor quite continued
-              frog mix headed shut
+            <p className="text-lg italic">
+              My journey into code didn&apos;t start with Hello, World, but with
+              a question: &quot;How can I build something that solves a real
+              problem?&quot; That curiosity led me from tinkering with my first
+              website to pursuing a degree in Computing Science at the
+              University of Alberta. I&apos;m now looking to bring my passion
+              for building impactful, user-centric software to a team where I
+              can contribute, learn, and grow.
             </p>
-            <span className="italic">
-              pleasant mouth mile giant younger aware model thee produce offer{" "}
-            </span>
+
             {/* signature */}
             <div className="ml-auto">
               <svg
@@ -131,18 +132,21 @@ export default function Page() {
                 <div className="w-1/3 space-y-3">
                   {/* job title */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior javascript developer
+                    Full-Stack Developer
                   </div>
                   {/* job description */}
                   <div className="p-2 text-sm italic">
-                    My current employment. Way better than the position before!
+                    Spearheaded end-to-end development of multiple
+                    production-grade applications, from architecting scalable
+                    backends with Node.js/Spring Boot to building dynamic,
+                    responsive frontends with React/Next.js and TypeScript.
                   </div>
                   {/* job date */}
                   <div className="p-2 text-red-400 text-sm font-semibold">
-                    2024 - Present
+                    2023 - Present
                   </div>
                   {/* job company */}
-                  <span className="p-2 rounded text-sm font-bold">apple</span>
+                  {/* <span className="p-2 rounded text-sm font-bold">apple</span> */}
                 </div>
 
                 {/* center */}
@@ -158,67 +162,17 @@ export default function Page() {
                 <div className="w-1/3"></div>
               </div>
 
-              {/* list item */}
+
               <div className="flex justify-between h-48">
-                {/* left */}
                 <div className="w-1/3 "></div>
 
-                {/* center */}
                 <div className="w-1/6 flex justify-center">
-                  {/* line */}
                   <div className="w-1 h-full bg-gray-600 rounded relative">
-                    {/* line circle */}
                     <div className="size-5 rounded-full absolute -left-2 ring-4 ring-red-400 bg-white"></div>
                   </div>
                 </div>
 
-                {/* right */}
-                <div className="w-1/3 space-y-3">
-                  {/* job title */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior javascript developer
-                  </div>
-                  {/* job description */}
-                  <div className="p-2 text-sm italic">
-                    My current employment. Way better than the position before!
-                  </div>
-                  {/* job date */}
-                  <div className="p-2 text-red-400 text-sm font-semibold">
-                    2024 - Present
-                  </div>
-                  {/* job company */}
-                  <span className="p-2 rounded text-sm font-bold">apple</span>
-                </div>
-              </div>
-
-              {/* list item */}
-              <div className="flex justify-between h-48">
-                {/* left */}
-                <div className="w-1/3 space-y-3">
-                  {/* job title */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior javascript developer
-                  </div>
-                  {/* job description */}
-                  <div className="p-2 text-sm italic">
-                    My current employment. Way better than the position before!
-                  </div>
-                  {/* job date */}
-                  <div className="p-2 text-red-400 text-sm font-semibold">
-                    2024 - Present
-                  </div>
-                  {/* job company */}
-                  <span className="p-2 rounded text-sm font-bold">apple</span>
-                </div>
-
-                {/* center */}
-                <div className="w-1/6 flex justify-center">
-                  {/* line */}
-                  <div className="w-1 h-full bg-gray-600 rounded relative">
-                    {/* line circle */}
-                    <div className="size-5 rounded-full absolute -left-2 ring-4 ring-red-400 bg-white"></div>
-                  </div>
-                </div>
+              
 
                 {/* right */}
                 <div className="w-1/3"></div>
